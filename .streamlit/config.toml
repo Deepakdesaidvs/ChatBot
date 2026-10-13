@@ -1,5 +1,5 @@
 [server]
-# Only this computer can reach the app. Public sharing (Phase 8) goes through a tunnel.
+# Local default; Render's start command overrides the address and port.
 address = "127.0.0.1"
 port = 8501
 maxUploadSize = 50
