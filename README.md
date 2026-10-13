@@ -13,6 +13,8 @@ The root `render.yaml` is a Render Blueprint. To deploy:
 
 1. Push the project to GitHub. `.env`, `.venv/`, and `data/` are excluded by
    `.gitignore`; never commit an API key.
+   The root `.python-version` pins Render to Python 3.11.9, required by the
+   pinned OCR package.
 2. In Render, create a **Blueprint** and connect the GitHub repository.
 3. Enter your OpenAI API key when Render prompts for `OPENAI_API_KEY`. Keep it
    in Render's secret environment settings, never in source control.
