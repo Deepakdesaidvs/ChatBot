@@ -1,0 +1,31 @@
+# ---- UI ----
+streamlit==1.40.2
+
+# ---- Local LLM / embeddings (talks to Ollama on localhost) ----
+ollama==0.4.4
+openai==1.59.9
+
+# ---- Vector database + keyword search (hybrid retrieval) ----
+chromadb==0.5.23
+rank-bm25==0.2.2
+
+# ---- Document parsing ----
+pypdf==5.1.0
+pymupdf==1.24.14
+python-docx==1.1.2
+python-pptx==1.0.2
+openpyxl==3.1.5
+xlrd==2.0.1
+pandas==2.2.3
+tabulate==0.9.0
+
+# ---- OCR (pip-only, no PATH setup) and images ----
+rapidocr-onnxruntime==1.3.25
+opencv-python==4.10.0.84
+pillow==11.0.0
+numpy==1.26.4
+pyarrow==18.1.0
+
+# ---- Security / utilities ----
+filetype==1.2.0
+python-dotenv==1.0.1

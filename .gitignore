@@ -1,0 +1,20 @@
+# Virtual environment
+.venv/
+venv/
+
+# Secrets and local settings
+.env
+
+# User data (uploaded documents, vector stores, logs)
+data/
+*.log
+
+# Python junk
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
